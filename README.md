@@ -2,7 +2,7 @@
 
 ## Logical View (C4 Component Diagram)
 
-### Stage 01: Core RBAC Service
+### Milestone 01: Core RBAC Service
 
 ```mermaid
 graph TD
@@ -25,7 +25,7 @@ graph TD
     style RBAC Service fill:#f9f,stroke:#333,stroke-width:2px
 ```
 
-### Stage 02: Data Persistence
+### Milestone 02: Data Persistence
 
 ```mermaid
 graph TD
@@ -53,7 +53,7 @@ graph TD
     style DataStores fill:#cde4ff,stroke:#333,stroke-width:2px
 ```
 
-### Stage 03: Web-facing UI & API Gateway
+### Milestone 03: Web-facing UI & API Gateway
 
 ```mermaid
 graph TD
@@ -79,7 +79,7 @@ graph TD
     style SystemBoundary fill:#f4f4f4,stroke:#333,stroke-width:2px
 ```
 
-### Stage 04: Asynchronous Logging & Auditing
+### Milestone 04: Asynchronous Logging & Auditing
 
 ```mermaid
 graph TD
@@ -111,7 +111,7 @@ graph TD
     style LoggingPipeline fill:#E6E6FA,stroke:#333,stroke-width:2px
 ```
 
-### Stage 05: Integration with HRIS
+### Milestone 05: Integration with HRIS
 
 ```mermaid
 graph TD
@@ -137,7 +137,7 @@ graph TD
     style HRIS_System fill:#EFEFEF,stroke:#333,stroke-width:2px,color:#333
 ```
 
-### Stage 06: Introducing the AI Anomaly Detection Engine
+### Milestone 06: Introducing the AI Anomaly Detection Engine
 
 ```mermaid
 graph TD
@@ -167,7 +167,7 @@ graph TD
     style ML_Model fill:#D2B4DE,stroke:#333,stroke-width:2px
 ```
 
-### Stage 07: Caching for Performance
+### Milestone 07: Caching for Performance
 
 ```mermaid
 graph TD
@@ -204,7 +204,7 @@ graph TD
     E --> F
 ```
 
-### Stage 08: High Availability & Scalability (No Change in Logical View)
+### Milestone 08: High Availability & Scalability (No Change in Logical View)
 
 ```mermaid
 graph TD
@@ -241,7 +241,7 @@ graph TD
     E --> F
 ```
 
-### Stage 09: AI Model Training & Governance Pipeline
+### Milestone 09: AI Model Training & Governance Pipeline
 
 ```mermaid
 graph TD
@@ -266,7 +266,7 @@ graph TD
     style OfflineMLOpsPipeline fill:#EFEFEF,stroke:#333,stroke-width:2px,color:#333
 ```
 
-### Stage 10: SIEM & Monitoring Integration
+### Milestone 10: SIEM & Monitoring Integration
 
 ```mermaid
 graph TD
@@ -291,7 +291,7 @@ graph TD
     style ExternalSystems fill:#EFEFEF,stroke:#333,stroke-width:2px,color:#333
 ```
 
-### Stage 11: Just-in-Time (JIT) Access & Workflow Engine
+### Milestone 11: Just-in-Time (JIT) Access & Workflow Engine
 
 ```mermaid
 graph TD
@@ -322,7 +322,7 @@ graph TD
     RBAC_Service -- "Reads permanent & temporary permissions" --> AppDB
 ```
 
-### Stage 12: Secrets Management & Security Hardening
+### Milestone 12: Secrets Management & Security Hardening
 
 ```mermaid
 graph TD
@@ -420,7 +420,7 @@ graph TD
 
 ## Physical View (AWS Deployment Diagram)
 
-### Stage 01: Core RBAC Service
+### Milestone 01: Core RBAC Service
 
 ```mermaid
 graph TD
@@ -443,7 +443,7 @@ graph TD
     style AWS Cloud fill:#FFDAB9,stroke:#333,stroke-width:2px
 ```
 
-### Stage 02: Data Persistence
+### Milestone 02: Data Persistence
 
 ```mermaid
 graph TD
@@ -476,7 +476,7 @@ graph TD
     style ElastiCache fill:#A8D1DF,stroke:#333,stroke-width:2px
 ```
 
-### Stage 03: Web-facing UI & API Gateway
+### Milestone 03: Web-facing UI & API Gateway
 
 ```mermaid
 graph TD
@@ -527,7 +527,7 @@ graph TD
     style Global_Services fill:#D1E8E2,stroke:#333,stroke-width:2px
 ```
 
-### Stage 04: Asynchronous Logging & Auditing
+### Milestone 04: Asynchronous Logging & Auditing
 
 ```mermaid
 graph TD
@@ -566,7 +566,7 @@ graph TD
     style AWS_Cloud fill:#FFDAB9,stroke:#333,stroke-width:2px
 ```
 
-### Stage 05: Integration with HRIS
+### Milestone 05: Integration with HRIS
 
 ```mermaid
 graph TD
@@ -606,7 +606,7 @@ graph TD
     style AWS_Cloud fill:#FFDAB9,stroke:#333,stroke-width:2px
 ```
 
-### Stage 06: Introducing the AI Anomaly Detection Engine
+### Milestone 06: Introducing the AI Anomaly Detection Engine
 
 ```mermaid
 graph TD
@@ -645,7 +645,7 @@ graph TD
     style AWS_Managed_Services fill:#D1E8E2,stroke:#333,stroke-width:2px
 ```
 
-### Stage 07: Caching for Performance
+### Milestone 07: Caching for Performance
 
 ```mermaid
 graph TD
@@ -684,7 +684,7 @@ graph TD
     style AWS_Cloud fill:#FFDAB9,stroke:#333,stroke-width:2px
 ```
 
-### Stage 08: High Availability & Scalability
+### Milestone 08: High Availability & Scalability
 
 ```mermaid
 graph TD
@@ -718,7 +718,7 @@ graph TD
     SQS --> FargateServices
 ```
 
-### Stage 09: AI Model Training & Governance Pipeline
+### Milestone 09: AI Model Training & Governance Pipeline
 
 ```mermaid
 graph TD
@@ -758,7 +758,7 @@ graph TD
     style MLOps_Pipeline fill:#D1E8E2,stroke:#333,stroke-width:2px
 ```
 
-### Stage 10: SIEM & Monitoring Integration
+### Milestone 10: SIEM & Monitoring Integration
 
 ```mermaid
 graph TD
@@ -794,7 +794,7 @@ graph TD
     style SIEM_Integration_Pipeline fill:#D1E8E2,stroke:#333,stroke-width:2px
 ```
 
-### Stage 11: Just-in-Time (JIT) Access & Workflow Engine
+### Milestone 11: Just-in-Time (JIT) Access & Workflow Engine
 
 ```mermaid
 graph TD
@@ -837,7 +837,7 @@ graph TD
     style Auto_Revocation fill:#EFEFEF,stroke:#333,stroke-width:2px,color:#333
 ```
 
-### Stage 12: Secrets Management & Security Hardening
+### Milestone 12: Secrets Management & Security Hardening
 
 ```mermaid
 graph TD
